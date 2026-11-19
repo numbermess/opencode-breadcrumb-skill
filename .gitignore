@@ -1,0 +1,13 @@
+# Ignore local config files that might be created during testing
+.env
+*.local.jsonc
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
